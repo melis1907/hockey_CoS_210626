@@ -1,0 +1,31 @@
+name: env_hockey
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core Python
+  - python>=3.10
+  
+  # Data Engineering & Manipulation
+  - pandas
+  - numpy
+  
+  # Machine Learning & Sequence Modeling
+  - scikit-learn       # For Anomaly Detection (Isolation Forests)
+  - hmmlearn           # For Gaussian Hidden Markov Models (HMM)
+  - xgboost            # For Gradient Boosting Machines (GBM)
+  
+  
+  # Statistical Validation
+  - statsmodels        # For Linear Mixed-Effects Models (LMM)
+  - scipy
+  
+  # Visualization (Optional but recommended for exploratory analysis)
+  - matplotlib
+  - seaborn
+  
+  # Notebook Environment
+  - jupyter
+
+  # Progress Bars
+  - tqdm
