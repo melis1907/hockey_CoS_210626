@@ -1,6 +1,9 @@
 ## Prerequisites & Installation
 
 To avoid library conflicts, please recreate the project's exact Conda environment. 
+This project was built using the following core environment:
+* **Conda:** 24.x (or latest available)
+* **Python:** 3.10+
 
 ### 1. Create the Environment File
 Create a file named `env_hockey.yml` in the root of this repository and paste the following configuration into it:
